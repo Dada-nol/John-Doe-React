@@ -16,7 +16,7 @@ function John() {
   return (
     <section>
       <div>
-        <img href={profile.avatar_url} alt="avatar de John Doe"></img>
+        <img src={profile.avatar_url} alt="Avatar de John Doe sur Github" />
       </div>
 
       <div>
@@ -29,8 +29,8 @@ function John() {
       <div>
         <p>Abonnés : {profile.followers}</p>
         <p>Abonnement : {profile.following}</p>
-        <p>Crée le : {profile.create_at}</p>
-        <p>Modifié le : {profile.update_at}</p>
+        <p>Crée le : {profile.created_at}</p>
+        <p>Modifié le : {profile.updated_at}</p>
         <p>
           URL repositories : <a href={profile.repos_url}>{profile.repos_url}</a>
         </p>
