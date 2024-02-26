@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./index.css";
+import "../index.css";
 
 function John() {
   const [profile, setProfile] = useState([]);
@@ -14,7 +14,7 @@ function John() {
   }, []);
 
   return (
-    <div>
+    <section>
       <div>
         <img src={profile.avatar_url} alt="Avatar de John Doe sur Github" />
       </div>
@@ -35,24 +35,20 @@ function John() {
           URL repositories : <a href={profile.repos_url}>{profile.repos_url}</a>
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 
 function Profil() {
   return (
-    <div>
-      <header>
-        <div>
-          <h1>Github user</h1>
-          <h2>John Doe</h2>
-        </div>
-      </header>
+    <section>
+      <div>
+        <h1>Github user</h1>
+        <h2>John Doe</h2>
+      </div>
 
-      <main>
-        <John></John>
-      </main>
-    </div>
+      <John></John>
+    </section>
   );
 }
 
