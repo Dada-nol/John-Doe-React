@@ -17,8 +17,11 @@ const Projets = () => {
               <h5 className="card-title">Cahier des charges</h5>
               <p className="card-text">Réalisation d'un cahier des charges</p>
               <a
+                target="_blank"
                 href="https://github.com/Dada-nol/CV-Darren.git"
                 className="btn btn-primary"
+                rel="noreferrer"
+                /* Modifier le href */
               >
                 Voir
               </a>
