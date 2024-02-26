@@ -65,7 +65,11 @@ const ML = () => {
                 <p>91 rue du Faubourg Saint Honoré</p>
                 <p>75008 Paris</p>
                 <p>
-                  <a href="https://www.alwaysdata.com/fr/">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.alwaysdata.com/fr/"
+                  >
                     www.alwaysdata.com
                   </a>
                 </p>
@@ -96,7 +100,14 @@ const ML = () => {
                   <p>Site développé par John Doe, étudiant du CEF.</p>
                   <p>
                     Les images libres de droit sont issues du site
-                    <a href="https://pixabay.com/">Pixabay</a>.
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://pixabay.com/"
+                    >
+                      Pixabay
+                    </a>
+                    .
                   </p>
                 </div>
               </div>
