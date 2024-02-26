@@ -1,9 +1,8 @@
-import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <Navbar className="navbar navbar-expand-lg bg-secondary">
+    <div className="navbar navbar-expand-lg bg-secondary">
       <div className="container">
         <Link className="navbar-brand text-light text-uppercase">
           Jhon DOE{" "}
@@ -24,7 +23,7 @@ const Nav = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item mx-0 mx-lg-1">
               <Link
-                className="nav-link active py-3 px-0 px-lg-3 rounded text-uppercase text-light"
+                className="nav-link py-3 px-0 px-lg-3 rounded text-uppercase text-light"
                 aria-current="page"
                 to="/"
               >
@@ -66,7 +65,7 @@ const Nav = () => {
           </ul>
         </div>
       </div>
-    </Navbar>
+    </div>
   );
 };
 
