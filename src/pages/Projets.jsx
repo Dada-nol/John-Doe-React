@@ -1,5 +1,4 @@
 import Footer from "../Components/Footer";
-import Img from "../Components/Image";
 import Nav from "../Components/Nav";
 
 const Projets = () => {
@@ -10,6 +9,11 @@ const Projets = () => {
       </header>
 
       <main>
+        <div
+          id="background-image"
+          style={{ backgroundImage: `url(img/geometric-1732847_1280.jpg)` }}
+        ></div>
+
         <div className="container">
           <div className="row text-center m-3">
             <h3 className="text-uppercase">Portfolio</h3>
@@ -18,12 +22,11 @@ const Projets = () => {
           <div className="row m-4 gy-3">
             <div className="col-md-4">
               <div className="card">
-                <Img
-                  src="CDC"
-                  format="png"
+                <img
+                  src="img/CDC.png"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="sommaire d'un cahier des charges"
-                ></Img>
+                />
                 <div className="card-body text-center">
                   <h5 className="card-title">Cahier des charges</h5>
                   <p className="card-text">
@@ -43,12 +46,11 @@ const Projets = () => {
             </div>
             <div className="col-md-4">
               <div className="card">
-                <Img
-                  src="htmlcss"
-                  format="png"
+                <img
+                  src="img/htmlcss.png"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="screenshot d'un CV"
-                ></Img>
+                />
                 <div className="card-body text-center">
                   <h5 className="card-title">Curriculum-vitae</h5>
                   <p className="card-text">Réalisation d'un CV en HTML/CSS</p>
@@ -65,12 +67,11 @@ const Projets = () => {
             </div>
             <div className="col-md-4">
               <div className="card">
-                <Img
-                  src="javascript"
-                  format="png"
+                <img
+                  src="img/javascript.png"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="screenshot d'un espace commentaire"
-                ></Img>
+                />
                 <div className="card-body text-center">
                   <h5 className="card-title">Espace commentaire</h5>
                   <p className="card-text">

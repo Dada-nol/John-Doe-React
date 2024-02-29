@@ -1,5 +1,4 @@
 import Footer from "../Components/Footer";
-import Img from "../Components/Image";
 import Nav from "../Components/Nav";
 
 const Home = () => {
@@ -11,7 +10,12 @@ const Home = () => {
 
       <main>
         <section class="custom-container container-fluid">
-          <div class="masthead">
+          <div
+            class="background-image"
+            style={{
+              backgroundImage: `url(img/software-developer-6521720_1280.jpg)`,
+            }}
+          >
             <div class="d-flex flex-column align-items-center justify-content-center">
               <h1>Bonjour, je suis John Doe</h1>
               <h2>Développeur web full stack</h2>
@@ -47,11 +51,10 @@ const Home = () => {
               </p>
             </div>
             <div class="col">
-              <Img
-                src="1670338567903"
-                format="jpg"
+              <img
+                src="img/1670338567903.jpg"
                 alt="Un jeune homme noir avec des lunettes, vue de face"
-              ></Img>
+              />
 
               <h3>Mes compétences</h3>
 
@@ -65,7 +68,7 @@ const Home = () => {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <div class="progress-bar bg-success"></div>
+                  <div id="progress90" class="progress-bar bg-success"></div>
                 </div>
               </div>
 
@@ -79,7 +82,7 @@ const Home = () => {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <div class="progress-bar bg-info"></div>
+                  <div id="progress80" class="progress-bar bg-info"></div>
                 </div>
               </div>
 
@@ -93,7 +96,7 @@ const Home = () => {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <div class="progress-bar bg-warning"></div>
+                  <div id="progress70" class="progress-bar bg-warning"></div>
                 </div>
               </div>
 
@@ -107,7 +110,7 @@ const Home = () => {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <div class="progress-bar bg-danger"></div>
+                  <div id="progress50" class="progress-bar bg-danger"></div>
                 </div>
               </div>
             </div>

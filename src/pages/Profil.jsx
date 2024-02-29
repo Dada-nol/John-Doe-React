@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "../index.css";
 
 function John() {
   const [profile, setProfile] = useState([]);

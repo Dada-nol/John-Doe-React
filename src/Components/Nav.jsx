@@ -23,7 +23,7 @@ const Nav = (props) => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item  mx-0 mx-lg-1">
               <Link
-                className={`nav-link ${props.home} py-3 px-0 px-lg-3 rounded text-uppercase `}
+                className={`nav-link ${props.home} py-3 px-0 px-lg-3 rounded text-uppercase text-light`}
                 aria-current="page"
                 to="/"
               >
@@ -32,7 +32,7 @@ const Nav = (props) => {
             </li>
             <li className="nav-item mx-0 mx-lg-1">
               <Link
-                className={`nav-link ${props.services} py-3 px-0 px-lg-3 rounded text-uppercase `}
+                className={`nav-link ${props.services} py-3 px-0 px-lg-3 rounded text-uppercase text-light`}
                 to="/services"
               >
                 Services
@@ -40,7 +40,7 @@ const Nav = (props) => {
             </li>
             <li className="nav-item mx-0 mx-lg-1">
               <Link
-                className={`nav-link ${props.projets} py-3 px-0 px-lg-3 rounded text-uppercase `}
+                className={`nav-link ${props.projets} py-3 px-0 px-lg-3 rounded text-uppercase text-light`}
                 to="/projets"
               >
                 Réalisation
@@ -48,7 +48,7 @@ const Nav = (props) => {
             </li>
             <li className="nav-item mx-0 mx-lg-1">
               <Link
-                className={`nav-link ${props.blog} py-3 px-0 px-lg-3 rounded text-uppercase `}
+                className={`nav-link ${props.blog} py-3 px-0 px-lg-3 rounded text-uppercase text-light`}
                 to="/blog"
               >
                 Blog
@@ -56,7 +56,7 @@ const Nav = (props) => {
             </li>
             <li className="nav-item mx-0 mx-lg-1">
               <Link
-                className={`nav-link ${props.contact} py-3 px-0 px-lg-3 rounded text-uppercase `}
+                className={`nav-link ${props.contact} py-3 px-0 px-lg-3 rounded text-uppercase text-light`}
                 to="/contact"
               >
                 Me contacter

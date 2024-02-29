@@ -15,21 +15,21 @@ const Footer = () => {
               href="https://github.com/github-john-doe"
               rel="noreferrer"
             >
-              <img src="../assets/img/github.png" alt="Github" />
+              <img src="img/github.png" alt="Github" />
             </a>
             <a
               target="_blank"
               href="https://www.facebook.com/darren.nardol.7/"
               rel="noreferrer"
             >
-              <img src="../assets/img/facebook(1).png" alt="facebook" />
+              <img src="img/facebook(1).png" alt="facebook" />
             </a>
             <a
               target="_blank"
               href="https://www.instagram.com/dada_nol/"
               rel="noreferrer"
             >
-              <img src="../assets/img/instagram.png" alt="instagram" />
+              <img src="img/instagram.png" alt="instagram" />
             </a>
           </div>
           <div className="col-lg col-md-6">
@@ -87,6 +87,7 @@ const Footer = () => {
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
               </svg>
+
               <a
                 target="_blank"
                 href="https://github.com/Dada-nol/CV-Darren.git"
@@ -100,6 +101,7 @@ const Footer = () => {
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
               </svg>
+
               <a
                 target="_blank"
                 href="https://github.com/Dada-nol/Dynamiser-un-espace-commentaire.git"
@@ -116,6 +118,7 @@ const Footer = () => {
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
               </svg>
+
               <a
                 target="_blank"
                 href="https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Responsive_Design"
@@ -129,6 +132,7 @@ const Footer = () => {
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
               </svg>
+
               <a
                 target="_blank"
                 href="https://developer.mozilla.org/fr/docs/Glossary/SEO"
@@ -142,6 +146,7 @@ const Footer = () => {
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
               </svg>
+
               <a
                 target="_blank"
                 href="https://developer.mozilla.org/fr/docs/Learn"
@@ -154,11 +159,12 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center bg-secondary text-light">
-        &copy Designed by Jhon Doe
+        Designed by Jhon Doe
       </p>
       <button onclick="topFunction()" id="myBtn" title="Go to top">
         Top
       </button>
+      {/* changer le bouton */}
     </footer>
   );
 };
