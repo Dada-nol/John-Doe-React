@@ -1,3 +1,5 @@
+import Footer from "../Components/Footer";
+import Img from "../Components/Image";
 import Nav from "../Components/Nav";
 
 const Home = () => {
@@ -45,10 +47,12 @@ const Home = () => {
               </p>
             </div>
             <div class="col">
-              <img
-                src="./assets/img/1670338567903.jpg"
+              <Img
+                src="1670338567903"
+                format="jpg"
                 alt="Un jeune homme noir avec des lunettes, vue de face"
-              />
+              ></Img>
+
               <h3>Mes compétences</h3>
 
               <div>
@@ -110,6 +114,10 @@ const Home = () => {
           </div>
         </section>
       </main>
+
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 };

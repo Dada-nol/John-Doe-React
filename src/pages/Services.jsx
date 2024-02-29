@@ -1,6 +1,7 @@
+import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 
-const Services = (props) => {
+const Services = () => {
   return (
     <>
       <header>
@@ -72,6 +73,10 @@ const Services = (props) => {
           </div>
         </div>
       </main>
+
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Footer from "./Components/Footer";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -22,8 +21,6 @@ function App() {
         <Route path="/ml" element={<ML />}></Route>
         <Route path="/profil" element={<Profil />}></Route>
       </Routes>
-
-      <Footer></Footer>
     </div>
   );
 }

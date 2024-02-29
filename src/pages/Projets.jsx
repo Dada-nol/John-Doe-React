@@ -1,6 +1,8 @@
+import Footer from "../Components/Footer";
+import Img from "../Components/Image";
 import Nav from "../Components/Nav";
 
-const Projets = (props) => {
+const Projets = () => {
   return (
     <>
       <header>
@@ -16,11 +18,12 @@ const Projets = (props) => {
           <div className="row m-4 gy-3">
             <div className="col-md-4">
               <div className="card">
-                <img
-                  src="../public/img/CDC.png"
+                <Img
+                  src="CDC"
+                  format="png"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="sommaire d'un cahier des charges"
-                />
+                ></Img>
                 <div className="card-body text-center">
                   <h5 className="card-title">Cahier des charges</h5>
                   <p className="card-text">
@@ -40,11 +43,12 @@ const Projets = (props) => {
             </div>
             <div className="col-md-4">
               <div className="card">
-                <img
-                  src="../assets/img/htmlcss.png"
+                <Img
+                  src="htmlcss"
+                  format="png"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="screenshot d'un CV"
-                />
+                ></Img>
                 <div className="card-body text-center">
                   <h5 className="card-title">Curriculum-vitae</h5>
                   <p className="card-text">Réalisation d'un CV en HTML/CSS</p>
@@ -61,11 +65,12 @@ const Projets = (props) => {
             </div>
             <div className="col-md-4">
               <div className="card">
-                <img
-                  src="../assets/img/javascript.png"
+                <Img
+                  src="javascript"
+                  format="png"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="screenshot d'un espace commentaire"
-                />
+                ></Img>
                 <div className="card-body text-center">
                   <h5 className="card-title">Espace commentaire</h5>
                   <p className="card-text">
@@ -85,6 +90,10 @@ const Projets = (props) => {
           </div>
         </div>
       </main>
+
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 };

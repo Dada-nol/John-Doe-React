@@ -1,6 +1,8 @@
+import Footer from "../Components/Footer";
+import Img from "../Components/Image";
 import Nav from "../Components/Nav";
 
-const Blog = (props) => {
+const Blog = () => {
   return (
     <>
       <header>
@@ -16,11 +18,12 @@ const Blog = (props) => {
           <div className="col-md-4">
             <div className="card">
               <div className="card-header">
-                <img
-                  src="../assets/img/programmer-1653351_640.png"
+                <Img
+                  src="programmer-1653351_640"
+                  format="png"
                   className="card-img-top"
                   alt="dessin d'un homme avec du code en fond"
-                />
+                ></Img>
               </div>
 
               <div className="card-body">
@@ -46,11 +49,12 @@ const Blog = (props) => {
           <div className="col-md-4">
             <div className="card">
               <div className="card-header">
-                <img
-                  src="../assets/img/market-4856748_640.jpg"
+                <Img
+                  src="market-4856748_640"
+                  format="jpg"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="dessin d'une rue avec son marché de fruit et legume"
-                />
+                ></Img>
               </div>
 
               <div className="card-body">
@@ -76,11 +80,12 @@ const Blog = (props) => {
           <div className="col-md-4">
             <div className="card">
               <div className="card-header">
-                <img
-                  src="../assets/img/magnifying-glass-76520_640.png"
+                <Img
+                  src="magnifying-glass-76520_640"
+                  format="png"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="illustration de google avec une loope"
-                />
+                ></Img>
               </div>
 
               <div className="card-body">
@@ -109,11 +114,12 @@ const Blog = (props) => {
           <div className="col-md-4">
             <div className="card">
               <div className="card-header">
-                <img
-                  src="../assets/img/computer-1231889_640.jpg"
+                <Img
+                  src="computer-1231889_640"
+                  format="jpg"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="une tablette, d'un télephone, et d'un ordinateur avec du code en fond"
-                />
+                ></Img>
               </div>
 
               <div className="card-body">
@@ -139,11 +145,12 @@ const Blog = (props) => {
           <div className="col-md-4">
             <div className="card">
               <div className="card-header">
-                <img
-                  src="../assets/img/search-engine-optimization-1359430_640.png"
+                <Img
+                  src="search-engine-optimization-1359430_640"
+                  format="png"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="le SEO et ses branches"
-                />
+                ></Img>
               </div>
 
               <div className="card-body">
@@ -169,11 +176,12 @@ const Blog = (props) => {
           <div className="col-md-4">
             <div className="card">
               <div className="card-header">
-                <img
-                  src="../assets/img/web-1935737_640.png"
+                <Img
+                  src="web-1935737_640"
+                  format="png"
                   className="card-img-top mx-auto d-bloc mt-3"
                   alt="ordinateur et des différents langages de programmation"
-                />
+                ></Img>
               </div>
 
               <div className="card-body">
@@ -198,6 +206,10 @@ const Blog = (props) => {
           </div>
         </div>
       </main>
+
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 };

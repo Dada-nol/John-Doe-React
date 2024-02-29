@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 
 const ML = () => {
@@ -123,6 +124,10 @@ const ML = () => {
           </div>
         </div>
       </main>
+
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 };

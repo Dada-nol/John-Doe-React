@@ -1,6 +1,7 @@
+import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 
-const Contact = (props) => {
+const Contact = () => {
   return (
     <>
       <header>
@@ -109,6 +110,10 @@ const Contact = (props) => {
           </div>
         </div>
       </main>
+
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 };
