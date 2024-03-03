@@ -4,8 +4,8 @@ const Nav = (props) => {
   return (
     <div className="navbar navbar-expand-lg bg-secondary">
       <div className="container">
-        <Link className="navbar-brand text-light text-uppercase">
-          Jhon DOE{" "}
+        <Link to="/" className="navbar-brand text-light text-uppercase">
+          Jhon DOE
         </Link>
         <button
           className="navbar-toggler"

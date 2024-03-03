@@ -1,0 +1,19 @@
+section {
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1,
+  h2 {
+    color: #1e1e1e;
+  }
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "../css/profil.css";
 
 function John() {
   const [profile, setProfile] = useState([]);
@@ -31,7 +32,10 @@ function John() {
         <p>Crée le : {profile.created_at}</p>
         <p>Modifié le : {profile.updated_at}</p>
         <p>
-          URL repositories : <a href={profile.repos_url}>{profile.repos_url}</a>
+          URL repositories :{" "}
+          <a target="_blank" href={profile.repos_url} rel="noreferrer">
+            {profile.repos_url}
+          </a>
         </p>
       </div>
     </section>

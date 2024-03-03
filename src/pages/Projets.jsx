@@ -34,10 +34,9 @@ const Projets = () => {
                   </p>
                   <a
                     target="_blank"
-                    href="https://github.com/Dada-nol/CV-Darren.git"
+                    href="https://github.com/Dada-nol/Premier-cahier-des-charges.git"
                     className="btn btn-primary"
                     rel="noreferrer"
-                    /* Modifier le href */
                   >
                     Voir
                   </a>

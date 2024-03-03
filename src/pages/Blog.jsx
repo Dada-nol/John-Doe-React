@@ -25,7 +25,7 @@ const Blog = () => {
                 <div className="card-header">
                   <img
                     src="img/programmer-1653351_640.png"
-                    className="card-img-top"
+                    className="card-img-top mx-auto d-bloc mt-3"
                     alt="dessin d'un homme avec du code en fond"
                   />
                 </div>

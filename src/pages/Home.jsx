@@ -9,7 +9,7 @@ const Home = () => {
       </header>
 
       <main>
-        <section class="custom-container container-fluid">
+        <div class="custom-container container-fluid">
           <div
             class="background-image"
             style={{
@@ -28,9 +28,9 @@ const Home = () => {
               </a>
             </div>
           </div>
-        </section>
+        </div>
 
-        <section id="AboutMe" class="container bg-light shadow p-3 mt-3 mb-5">
+        <div id="AboutMe" class="container bg-light shadow p-3 mt-3 mb-5">
           <div class="row">
             <div class="col">
               <h3 class="mb-5 mt-2 text-uppercase">À propos</h3>
@@ -115,7 +115,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </main>
 
       <footer>

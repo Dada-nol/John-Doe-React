@@ -56,7 +56,7 @@ const Footer = () => {
               >
                 <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
-              <a href="/services">Services</a>
+              <Link to="/services">Services</Link>
             </div>
 
             <div>
@@ -68,7 +68,7 @@ const Footer = () => {
                 <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
 
-              <a href="/contact">Me contacter</a>
+              <Link to="/contact">Me contacter</Link>
             </div>
 
             <div>
@@ -80,7 +80,7 @@ const Footer = () => {
                 <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
 
-              <a href="/mL">Mentions légales</a>
+              <Link to="/mL">Mentions légales</Link>
             </div>
             <div>
               <svg
@@ -91,7 +91,7 @@ const Footer = () => {
                 <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
 
-              <a href="/profil">Profil Github</a>
+              <Link to="/profil">Profil Github</Link>
             </div>
           </div>
           <div className="col-lg col-md-6">
@@ -105,8 +105,13 @@ const Footer = () => {
               >
                 <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
-              <a href="https://github.com/Dada-nol/CV-Darren.git">Projet 1</a>
-              {/* Modifier le href */}
+              <a
+                target="_blank"
+                href="https://github.com/Dada-nol/Premier-cahier-des-charges.git"
+                rel="noreferrer"
+              >
+                Projet 1
+              </a>
             </div>
 
             <div>
@@ -207,10 +212,6 @@ const Footer = () => {
       <p className="text-center bg-secondary text-light">
         Designed by Jhon Doe
       </p>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">
-        Top
-      </button>
-      {/* changer le bouton */}
     </footer>
   );
 };
