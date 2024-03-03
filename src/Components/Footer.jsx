@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import ScrollButton from "./ScrollButton";
 
 const Footer = () => {
   return (
     <footer className="bg-secondary-subtle">
+      <ScrollButton></ScrollButton>
       <div className="container text-center p-3">
         <div className="row">
           <div className="col-lg col-md-6">
@@ -15,78 +17,112 @@ const Footer = () => {
               href="https://github.com/github-john-doe"
               rel="noreferrer"
             >
-              <img src="../assets/img/github.png" alt="Github" />
+              <img src="img/github.png" alt="Github" />
             </a>
             <a
               target="_blank"
               href="https://www.facebook.com/darren.nardol.7/"
               rel="noreferrer"
             >
-              <img src="../assets/img/facebook(1).png" alt="facebook" />
+              <img src="img/facebook(1).png" alt="facebook" />
             </a>
             <a
               target="_blank"
               href="https://www.instagram.com/dada_nol/"
               rel="noreferrer"
             >
-              <img src="../assets/img/instagram.png" alt="instagram" />
+              <img src="img/instagram.png" alt="instagram" />
             </a>
           </div>
           <div className="col-lg col-md-6">
             <h5>Liens utiles</h5>
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
 
               <Link to="/">Home</Link>
             </div>
 
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
-              <a href="/services">Services</a>
+              <Link to="/services">Services</Link>
             </div>
 
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
 
-              <a href="/contact">Me contacter</a>
+              <Link to="/contact">Me contacter</Link>
             </div>
 
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
 
-              <a href="/mL">Mentions légales</a>
+              <Link to="/mL">Mentions légales</Link>
             </div>
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
 
-              <a href="/profil">Profil Github</a>
+              <Link to="/profil">Profil Github</Link>
             </div>
           </div>
           <div className="col-lg col-md-6">
             <h5>Mes dernières réalisations</h5>
 
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
-              <a href="https://github.com/Dada-nol/CV-Darren.git">Projet 1</a>
-              {/* Modifier le href */}
+              <a
+                target="_blank"
+                href="https://github.com/Dada-nol/Premier-cahier-des-charges.git"
+                rel="noreferrer"
+              >
+                Projet 1
+              </a>
             </div>
 
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
+
               <a
                 target="_blank"
                 href="https://github.com/Dada-nol/CV-Darren.git"
@@ -97,9 +133,14 @@ const Footer = () => {
             </div>
 
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
+
               <a
                 target="_blank"
                 href="https://github.com/Dada-nol/Dynamiser-un-espace-commentaire.git"
@@ -113,9 +154,14 @@ const Footer = () => {
             <h5>Mes derniers articles</h5>
 
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
+
               <a
                 target="_blank"
                 href="https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Responsive_Design"
@@ -126,9 +172,14 @@ const Footer = () => {
             </div>
 
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
+
               <a
                 target="_blank"
                 href="https://developer.mozilla.org/fr/docs/Glossary/SEO"
@@ -139,26 +190,28 @@ const Footer = () => {
             </div>
 
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              <svg
+                className="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.2 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.2 0l192 192z" />
               </svg>
+
               <a
                 target="_blank"
                 href="https://developer.mozilla.org/fr/docs/Learn"
                 rel="noreferrer"
               >
-                Article 3
+                Article 2
               </a>
             </div>
           </div>
         </div>
       </div>
       <p className="text-center bg-secondary text-light">
-        &copy Designed by Jhon Doe
+        Designed by Jhon Doe
       </p>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">
-        Top
-      </button>
     </footer>
   );
 };

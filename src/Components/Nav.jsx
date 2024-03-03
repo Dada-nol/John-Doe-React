@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <div className="navbar navbar-expand-lg bg-secondary">
       <div className="container">
-        <Link className="navbar-brand text-light text-uppercase">
-          Jhon DOE{" "}
+        <Link to="/" className="navbar-brand text-light text-uppercase">
+          Jhon DOE
         </Link>
         <button
           className="navbar-toggler"
@@ -21,9 +21,9 @@ const Nav = () => {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item mx-0 mx-lg-1">
+            <li className="nav-item  mx-0 mx-lg-1">
               <Link
-                className="nav-link py-3 px-0 px-lg-3 rounded text-uppercase text-light"
+                className={`nav-link ${props.home} py-3 px-0 px-lg-3 rounded text-uppercase text-light`}
                 aria-current="page"
                 to="/"
               >
@@ -32,7 +32,7 @@ const Nav = () => {
             </li>
             <li className="nav-item mx-0 mx-lg-1">
               <Link
-                className="nav-link py-3 px-0 px-lg-3 rounded text-uppercase text-light"
+                className={`nav-link ${props.services} py-3 px-0 px-lg-3 rounded text-uppercase text-light`}
                 to="/services"
               >
                 Services
@@ -40,7 +40,7 @@ const Nav = () => {
             </li>
             <li className="nav-item mx-0 mx-lg-1">
               <Link
-                className="nav-link py-3 px-0 px-lg-3 rounded text-uppercase text-light"
+                className={`nav-link ${props.projets} py-3 px-0 px-lg-3 rounded text-uppercase text-light`}
                 to="/projets"
               >
                 Réalisation
@@ -48,7 +48,7 @@ const Nav = () => {
             </li>
             <li className="nav-item mx-0 mx-lg-1">
               <Link
-                className="nav-link py-3 px-0 px-lg-3 rounded text-uppercase text-light"
+                className={`nav-link ${props.blog} py-3 px-0 px-lg-3 rounded text-uppercase text-light`}
                 to="/blog"
               >
                 Blog
@@ -56,7 +56,7 @@ const Nav = () => {
             </li>
             <li className="nav-item mx-0 mx-lg-1">
               <Link
-                className="nav-link py-3 px-0 px-lg-3 rounded text-uppercase text-light"
+                className={`nav-link ${props.contact} py-3 px-0 px-lg-3 rounded text-uppercase text-light`}
                 to="/contact"
               >
                 Me contacter
