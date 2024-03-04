@@ -14,7 +14,7 @@ function John() {
   }, []);
 
   return (
-    <section>
+    <div>
       <div>
         <img src={profile.avatar_url} alt="Avatar de John Doe sur Github" />
       </div>
@@ -38,7 +38,7 @@ function John() {
           </a>
         </p>
       </div>
-    </section>
+    </div>
   );
 }
 
